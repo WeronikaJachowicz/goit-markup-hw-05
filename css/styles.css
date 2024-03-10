@@ -479,3 +479,55 @@ a {
 .link-footer:focus {
     background-color: #31d0aa;
 }
+
+.footer-form {
+    display: flex;
+    gap: 16px;
+    max-width: 453px;
+    padding: 0;
+    margin-left: 80px;
+}
+
+.sub-label {
+    display: flex;
+    flex-direction: column;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+    color: #fff;
+}
+
+.sub-label input {
+    border: 1px solid #fff;
+    border-radius: 4px;
+    font-family: inherit;
+    height: 40px;
+    width: 264px;
+    background-color: #2e2f42;
+    color: #fff;
+    margin-top: 16px;
+}
+
+.sub-label input::placeholder {
+    color: #fff;
+}
+
+.sub-button {
+    margin-top: 40px;
+    height: 40px;
+    display: flex;
+    flex-direction: row;
+    gap: 16px;
+    border-color: #4d5ae5;
+    justify-content: center;
+    align-items: center;
+    color:#fff;
+    background-color: #4d5ae5;
+    padding: 8px 24px;
+    border-radius: 4px;
+}
+.sub-button:focus,
+.sub-button:hover {
+    background-color: #404bbf;
+}
