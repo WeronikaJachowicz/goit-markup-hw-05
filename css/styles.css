@@ -483,13 +483,13 @@ a {
 .footer-form {
     display: flex;
     flex-direction: row;
-    gap: 16px;
+    gap: 24px;
     max-width: 453px;
-    padding-top: 16px;
+    padding: 0;
     margin-left: 80px;
 }
 
-.sub-label {
+.sub-text {
     display: flex;
     font-weight: 500;
     font-size: 16px;
@@ -497,6 +497,7 @@ a {
     letter-spacing: 0.02em;
     color: #fff;
     margin-left: 80px;
+    margin-bottom: 16px;
 }
 
 .sub-input {
@@ -505,26 +506,43 @@ a {
     font-family: inherit;
     height: 40px;
     width: 264px;
-    background-color: #2e2f42;
+    background-color: transparent;
     color: #fff;
-    
+    font-size: 12px;
+    line-height: 2;
+    letter-spacing: 0.04em;
+    padding-left: 16px;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
 }
 
+.sub-input::placeholder {
+    color: #fff;
+}
 
 .sub-button {
     height: 40px;
     display: flex;
     flex-direction: row;
     gap: 16px;
-    border-color: #4d5ae5;
+    border: none;
     justify-content: center;
     align-items: center;
     color:#fff;
     background-color: #4d5ae5;
     padding: 8px 24px;
     border-radius: 4px;
+    min-width: 165px;
+    font-weight: 500;
+    line-height: 1.5;
+    letter-spacing: 0.04em;
+    cursor: pointer;
+
 }
 .sub-button:focus,
 .sub-button:hover {
     background-color: #404bbf;
+}
+
+.sub-icon {
+    margin-left: 16px;
 }
