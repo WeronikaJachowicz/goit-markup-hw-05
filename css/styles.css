@@ -691,11 +691,11 @@ a {
     visibility: hidden;
 }
 
-.mod-form-checkbox:checked + .mod-form-privacy span {
+.mod-form-checkbox:checked + .mod-form-privacy-span {
     background-color: var(--pressed-state);
     fill: #404bbf;
     border: none;
-    background-color: #404bbf;
+    
 }
 
 .mod-form-privacy {
