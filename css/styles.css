@@ -687,6 +687,9 @@ a {
 .mod-form-checkbox-container {
     margin-bottom: 24px;
 }
+.visually-hidden {
+    visibility: hidden;
+}
 
 .mod-form-checkbox:checked + .mod-form-privacy span {
     background-color: var(--pressed-state);
