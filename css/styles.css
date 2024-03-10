@@ -693,7 +693,7 @@ a {
 
 .mod-form-checkbox:checked + .mod-form-privacy span {
     background-color: var(--pressed-state);
-    fill: #f4f4fd;
+    fill: #404bbf;
     border: none;
     background-color: #404bbf;
 }
