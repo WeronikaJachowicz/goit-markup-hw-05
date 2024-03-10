@@ -655,8 +655,8 @@ a {
     transition: fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
-.mod-form-input svg:focus,
-.mod-form-input svg:hover{
+.mod-form-input:focus svg,
+.mod-form-input:hover svg {
     fill: #4d5ae5;
 }
 
@@ -691,9 +691,8 @@ a {
     visibility: hidden;
 }
 
-.mod-form-checkbox:checked + .mod-form-privacy-span {
-    background-color: var(--pressed-state);
-    background-color: #404bbf;
+.mod-form-checkbox:checked span {
+    background-color: #404bbf var(--pressed-state);
     fill: #F4F4FD;
     border: none;
     
