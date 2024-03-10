@@ -600,8 +600,8 @@ a {
     transition: fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
-.x-icon:focus,
-.x-icon:hover {
+.x-button:focus,
+.x-button:hover {
     fill: #ffffff;
 }
 
@@ -733,7 +733,7 @@ a {
     display: block;
     min-width: 169px;
     height: 56px;
-    font-family: "Roboto", sens-serif;
+    font-family: "Roboto", sans-serif;
     font-size: 16px;
     font-weight: 500;
     line-height: 1.5;
