@@ -544,9 +544,6 @@ a {
     background-color: #404bbf;
 }
 
-.sub-icon {
-    margin-left: 16px;
-}
 
 .mod-container {
     position: fixed;
@@ -725,7 +722,7 @@ a {
 }
 
 .mod-end-button {
-    margin: 0 auto;
+    margin: auto;
     display: block;
     border-radius: 4px;
     min-width: 169px;
