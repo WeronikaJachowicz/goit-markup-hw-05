@@ -523,6 +523,7 @@ a {
 .sub-button {
     height: 40px;
     display: flex;
+    gap: 16px;
     flex-direction: row;
     border: none;
     justify-content: center;
